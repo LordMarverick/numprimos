@@ -8,7 +8,7 @@ if (num % i === 0 || num % (i + 2) === 0) return false;
 }
 return true;
 }
-// Fun��o para receber a entrada do usu�rio
+// Função para receber a entrada do usuario
 function checkPrime() {
 let input = prompt("Por favor, digite um número para saber se é primo ou não!");
 let num = parseInt(input);
